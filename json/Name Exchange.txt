@@ -1,0 +1,7 @@
+Name Exchange is mendatory for get the description of object while click on object
+
+airport     -->  ammunation.json
+building    -->  barbershop.json 
+girlfriend  -->  clothingstore.json 
+homes       -->  fairride.json
+schools     -->  golf.json

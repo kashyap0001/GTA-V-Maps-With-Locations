@@ -1,0 +1,76 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Denise Robinson",
+        "desc":"Denise Robinson is a minor character in Grand Theft Auto: San Andreas. She is Carl Johnson's first girlfriend in the events of the game.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [900, 215]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Millie Perkins",
+        "desc":"Millie Perkins is a supporting character in Grand Theft Auto: San Andreas, and is one possible of the six girlfriends of Carl Johnson.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [840, 953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Helena Wankstein",
+        "desc":"Helena Wankstein is a minor character in Grand Theft Auto: San Andreas and one of the girlfriends Carl Johnson can date.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [436, 261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Katie Zhan",
+        "desc":"Katie Zhan is a minor character in Grand Theft Auto: San Andreas. She is one of Carl Johnson's optional girlfriends.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [72, 691]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Michelle Cannes",
+        "desc":"Michelle Cannes is a character who appears as a minor character in Grand Theft Auto: San Andreas. She is one of six girlfriends that Carl can engage a relationship with.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [199, 701]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barbara Schternvart",
+        "desc":"Barbara Schternvart is a character in the Grand Theft Auto series who appears as a minor character in Grand Theft Auto: San Andreas. She can become one of Carl's potential girlfriends.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [266, 939]
+      }
+    }
+  ]
+}

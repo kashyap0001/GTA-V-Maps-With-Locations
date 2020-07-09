@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Los Santos Tower",
+        "desc":"The Los Santos Tower is a large 94-story skyscraper in Downtown Los Santos that appears in Grand Theft Auto: San Andreas.",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [757, 273]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "name": "Observatory",
+        "desc":"The Observatory is a facility featured in Grand Theft Auto: San Andreas. It is a large, ornate building located atop the hill in the district of Verdant Bluffs in Los Santos.",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [695.9, 160.6]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Santos Forum",
+        "desc":"The Los Santos Forum is the main stadium in Los Santos in Grand Theft Auto: San Andreas. It is located at the southeast end of the city, in the border of East Beach and Playa del Seville, and east of Ganton.",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [956, 207]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Four Dragons Hotel & Casino, commonly known as The Four Dragons Casino or simply The Four Dragons[1] is a casino hotel in Grand Theft Auto: San Andreas located on the southernmost side of The Strip in Las Venturas, San Andreas.",
+        "desc":"images/ammunation/paletobay.png",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [834, 669]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "The Camel's Toe",
+        "desc":"The Camel's Toe is a casino and hotel that appears in Grand Theft Auto: San Andreas. It is located in Las Venturas, San Andreas. The hotel is a parody of the Luxor Hotel in Las Vegas, Nevada, including the obelisk tower, the pyramid, and the recreated Sphinx.",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates":  [887, 714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pirates In Men's Pants",
+        "desc":"Pirates in Men's Pants is a casino that appears in Grand Theft Auto: San Andreas. It is located along The Strip in Las Venturas, San Andreas. It is situated between The High Roller and The Visage, two other casinos along The Strip.",
+        "ptype": "Ammu-Nation"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [819, 771]
+      }
+    }
+  ]
+}

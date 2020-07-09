@@ -1,0 +1,52 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Pilot School",
+        "desc":"The Pilot School, also known as the Flying School, is the most important of the vehicle schools in Grand Theft Auto: San Andreas, unlocked after "Verdant Meadows" with the purchase of the abandoned Verdant Meadows airstrip.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [565, 922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Biking School",
+        "desc":"This school teaches the player advanced techniques of handling a motorcycle. It is located in the Blackfield district of Las Venturas just across Blackfield Stadium and adjacent to Julius Thruway East",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [694, 725]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Boating School",
+        "desc":" It is located in Bayside Marina, which is located in the town of Bayside in northeast Tierra Robada.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [135, 903]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Driving School",
+        "desc":"Driving School where the player learns advanced driving maneuvers and tactics of handling a vehicle. It is located in Doherty, San Fierro, two blocks down from the Doherty Garage and across the Doherty Safehouse.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162, 482]
+      }
+    }
+  ]
+}

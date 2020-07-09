@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <style> //zoom button control
+  .leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+	font: bold 18px 'Lucida Console', Monaco, monospace;
+	text-indent: 1px;
+	text-align: center;
+	}
+	
+	.leaflet-touch .leaflet-bar a {
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	}
+
+.leaflet-touch .leaflet-control-zoom-in, .leaflet-touch .leaflet-control-zoom-out  {
+	font-size: 55px;
+	}
+    .leaflet-popup-content-wrapper {
+      background-color: gray;
+    }
+
+    .leaflet-control-layers-expanded {
+      background-color: #2da0e2;
+      background-size: 100%;
+      background-image: url("images/x.png");
+      transition-property: opacity;
+      transition-duration: 1s;
+      opacity: 70%;
+    }
+
+    .leaflet-control-layers-expanded:hover {
+      opacity: 100%;
+    }
+
+    .leaflet-popup-tip {
+      background-color: gray;
+      opacity: 0%;
+
+    }
+
+    .leaflet-popup-close-button {
+      background-color: gray;
+      opacity: 0%;
+    }
+
+    .popupImage {
+      max-width: 100%;
+      max-height: 100%;
+
+    }
+
+    .popupImage:hover {
+      transform: scale(3);
+      opacity: 1 !important;
+      border-style: solid;
+      border-color: gray;
+      border-width: 2px;
+      z-index: 1000 !important;
+    }
+
+    .gtav {
+      margin: 0 auto;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    html,
+    body,
+    #map {
+      height: 100%;
+      width: 100%;
+    }
+  </style>
+</head>
+<title>GTA V Interactive map</title>
+
+<body style="background-color:#0fa8d2">
+  <div id="map" style="width: 100%; height: 100%;background-color:#0fa8d2;">
+  </div>
+  <script>
+    //Initialize Leaflet map
+    var map = L.map('map', {
+      crs: L.CRS.Simple,
+      minZoom: 0,
+      maxBoundsViscosity: 1.0
+    });
+    var bounds = [
+      [0, 0],
+      [1000, 1000]
+    ];
+	map.attributionControl.addAttribution('GTA V &copy Rockstar Games');
+    
+    //Initialize each base layer
+    var atlas = L.imageOverlay('images/map/line.png', bounds).addTo(map);
+    var satellite = L.imageOverlay('images/GTAV_SATELLITE_8192x8192.png', bounds)
+    var road = L.imageOverlay('images/GTAV_ROADMAP_8192x8192.png', bounds)
+    map.fitBounds(bounds);
+    map.setMaxBounds(bounds)
+
+    // Load each layer from it's corresponding GeoJSON file
+    var airport = L.geoJson(null, {
+      pointToLayer: function(feature, latlng) {
+        //Create icon for marker
+        var icn = L.icon({
+          iconUrl: 'images/marker/airport.svg',
+          iconSize: [65, 65], // size of the icon
+        });
+        var marker = L.marker(latlng, {
+          icon: icn
+        });
+        marker.bindPopup("<font color=white><h2>" + feature.properties.name + "</h2><h4>"+feature.properties.desc+"</h4></font>");
+        return marker;
+      }
+    })
+	
+    $.getJSON("json/ammunation.json", function(data) {
+      airport.addData(data).addTo(map);
+    });
+
+    //When the map's base layer is changed, change the color of the background
+    //to match the map
+    map.on('baselayerchange', function(layer) {
+      if (layer.name == "Road") {
+        document.getElementById("map").style.background = "#1862ad";
+      }
+      if (layer.name == "Satellite") {
+        document.getElementById("map").style.background = "#143d6b";
+      }
+      if (layer.name == "Atlas") {
+        document.getElementById("map").style.background = "#0fa8d2";
+      }
+    });
+  </script>
+</body>
+
+</html>

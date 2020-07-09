@@ -1,0 +1,376 @@
+{
+  "type": "FeatureCollection",
+  "features": [{
+      "type": "Feature",
+      "properties": {
+        "name": "Johnson House",
+        "desc":"The Johnson House is a safehouse on Grove Street in Ganton, Los Santos in Grand Theft Auto: San Andreas.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [915, 217]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [913, 167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [781, 150]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [852, 287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [649, 226]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [553, 205]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [724, 394]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [632, 416]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [535, 481]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [872, 528]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [154, 114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [262, 243]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [162, 493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [92, 477]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [130, 619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [50, 637]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Suite",
+        "desc":"Hotel Suite is a safehouse and a hotel located in Queens, San Fierro in Grand Theft Auto: San Andreas. It is unlocked after the mission Are You Going to San Fierro? and it can be bought for $50,000.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [94, 558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [150, 650]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abandoned AC Tower",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [244, 943]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [325, 759]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [439, 695]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [569, 923]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [655, 835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Suite",
+        "desc":"Hotel Suite is a safehouse and a hotel located in Queens, San Fierro in Grand Theft Auto: San Andreas. It is unlocked after the mission Are You Going to San Fierro? and it can be bought for $50,000.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [827, 771]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Suite",
+        "desc":"Hotel Suite is a safehouse and a hotel located in Queens, San Fierro in Grand Theft Auto: San Andreas. It is unlocked after the mission Are You Going to San Fierro? and it can be bought for $50,000.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [873, 714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Suite",
+        "desc":"Hotel Suite is a safehouse and a hotel located in Queens, San Fierro in Grand Theft Auto: San Andreas. It is unlocked after the mission Are You Going to San Fierro? and it can be bought for $50,000.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [869, 806]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hotel Suite",
+        "desc":"Hotel Suite is a safehouse and a hotel located in Queens, San Fierro in Grand Theft Auto: San Andreas. It is unlocked after the mission Are You Going to San Fierro? and it can be bought for $50,000.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [898, 862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [908, 615]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [970, 856]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [711, 922]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Safehouse",
+        "desc":"These safe houses are purchasable properties containing a save icon as well as a wardrobe, which distinguishes them from save points. Safe houses may also contain usable garages, capable of storing up to four vehicles.",
+        "ptype": "Clothing Store"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [734, 816]
+      }
+    }
+  ]
+}
